@@ -17,7 +17,7 @@ def RelaxToXtl(mydir, myfile, natoms):
     while(line):
         line = f.readline()
         if line[:15] == 'CELL_PARAMETERS':
-            a0 = float(line.split()[2][:8])
+            a0 = float(line.split()[2][:8]) * 0.52918
             for i in range(3):
                 line = f.readline()
                 v[i][0:3] = np.array(map(float, line.split()[0:3])) * a0
