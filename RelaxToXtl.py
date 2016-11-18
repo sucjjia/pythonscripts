@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 
-mydir = '/Users/cjjia/Documents/Research/Glassy_Carbon/Progress_MD_sructure/40GPAvcrelax/'
+mydir = '/Users/cjjia/Documents/Research/Glassy_Carbon/Progress_MD_sructure/VCMD/0GPA/'
 myfile = 'gc'
 natoms = 250
         
